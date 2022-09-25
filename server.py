@@ -1,6 +1,6 @@
 import socket
 from tkinter import *
-
+host , port = ("", 2007)
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 socket.bind((host, port))
 
